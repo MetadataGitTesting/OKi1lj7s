@@ -1,0 +1,139 @@
+name: mittie.volkman
+description: Seamless
+version: 0.0.1
+author: fw5gcbvz.fv8tcojr@42jmtaaf.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-02-05 13:45:43'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema: null
+    description: model desc
+    author: fw5gcbvz.fv8tcojr@42jmtaaf.com
+    files:
+    - model.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-05 13:45:45'
+  .prophecy/metadata/sqlmodels/newmodel:
+    name: newmodel
+    schema: null
+    description: desc model
+    author: fw5gcbvz.fv8tcojr@42jmtaaf.com
+    files:
+    - subpath/newmodel.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-05 13:45:45'
+sqlSnapshots:
+  .prophecy/metadata/sqlsnapshots/snapshot:
+    name: snapshot
+    schema: null
+    description: null
+    author: fw5gcbvz.fv8tcojr@42jmtaaf.com
+    files:
+    - snap.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-05 13:45:45'
+sqlTests:
+  .prophecy/metadata/sqltests/test1:
+    name: test1
+    description: null
+    author: fw5gcbvz.fv8tcojr@42jmtaaf.com
+    files:
+    - test1.sql
+    testType: SingularDataTest
+    createdAt: '2025-02-05 13:45:45'
+  .prophecy/metadata/sqltests/test2:
+    name: test2
+    description: null
+    author: fw5gcbvz.fv8tcojr@42jmtaaf.com
+    files:
+    - test2.sql
+    - .prophecy/sqltests/test2.json
+    testType: SingularDataTest
+    createdAt: '2025-02-05 13:45:45'
+sqlMacros:
+  .prophecy/metadata/sqlmacros/macro:
+    name: macro
+    macroType: macro
+    description: macro desc
+    author: fw5gcbvz.fv8tcojr@42jmtaaf.com
+    files:
+    - sources.yml
+    createdAt: '2025-02-05 13:45:45'
+sqlSeeds:
+  .prophecy/metadata/sqlseeds/seed1:
+    name: seed1
+    schema: null
+    description: seed desc
+    author: fw5gcbvz.fv8tcojr@42jmtaaf.com
+    files:
+    - sources.yml
+    createdAt: '2025-02-05 13:45:45'
+sqlSources:
+  .prophecy/metadata/sqlsources/source:
+    name: source
+    description: source desc
+    author: fw5gcbvz.fv8tcojr@42jmtaaf.com
+    files:
+    - sources.yml
+    createdAt: '2025-02-05 13:45:45'
+    tables: []
+  .prophecy/metadata/sqlsources/multipleFileSource:
+    name: multipleFileSource
+    description: multipleFileSource desc
+    author: fw5gcbvz.fv8tcojr@42jmtaaf.com
+    files:
+    - sources1.yml
+    - mfs/src/multipleFileSource.yml
+    createdAt: '2025-02-05 13:45:45'
+    tables:
+    - name: table1
+      schema: null
+      description: descr 1
+      author: fw5gcbvz.fv8tcojr@42jmtaaf.com
+      createdAt: '2025-02-05 13:45:45'
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: fw5gcbvz.fv8tcojr@42jmtaaf.com
+  createdAt: '2025-02-05 13:45:43'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
